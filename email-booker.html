@@ -27,9 +27,11 @@
 		h2 {color: #070707; font-size: 24px; text-align: left;}
 		.section-sff-image {width: 100%; object-fit: cover;}
 		.text-content {text-align: left; font-family: 'Hind Siliguri', sans-serif;}
-		.button-black {background-color: #070707; width: 85px; height: 30px; border-radius: 30px; color: #FFD235; padding: 2px 0px 0px 10px;}
+		.button-black {background-color: #070707; width: 100px; height: 30px; border-radius: 30px; color: #FFD235; padding: 2px 0px 0px 15px;}
+		.button-yellow {background-color: #FFD235; width: 100px; height: 30px; border-radius: 30px; color: #070707; padding: 2px 0px 0px 15px;}
 		a {text-decoration: none; width: 100%; height: 100%; text-align: center; font-family: 'Hind Siliguri', sans-serif;}
 		.button-black-link {color: #FFD235;}
+		.button-yellow-link {color: #070707;}
 		.td-padding {padding: 30px;}
 		.td-padding-left {padding-left: 30px;}
 		.section-album {width: 100%;; display: flex;}
@@ -40,6 +42,23 @@
 		.table-margin-top {margin-top: 50px;}
 		img {object-fit: cover;}
 		.image-album-cover {width: 300px; object-fit: contain;}
+		.section-discography-title {color: #FFD235;}
+		h3 {color: #FCFCFC; font-size: 12px; font-family: 'Hind Siliguri'; font-weight: 600; margin: 5px 0px;}
+		.bandcamp-button {margin-top: 20px;}
+		.td-flex {display: flex;}
+		.white {color: #FCFCFC;}
+		.discography-text-container {width: 100%; padding-left: 50px;}
+		.discography-text-content {width: 100%; margin-top: 0;}
+		h4 {font-size: 10px; font-family: 'Hind Siliguri', sans-serif; font-weight: 600; margin: 0;}
+		.yellow {color: #FFD235;}
+		h5 {font-size: 10px; font-family: 'Hind Siliguri', sans-serif; font-weight: 200; margin: 0;}
+		.discography-infos-list {display: flex; justify-content: space-between; padding-right: 20px; margin-bottom: 20px;}
+		.discography-infos-list-content-margin-right {margin-right: 20px;}
+		.container-single {display: flex; width: 100%; justify-content: space-between;}
+		.image-single {width: 250px;}
+		.youtube-button {padding-left: 25px; margin-top: 20px;}
+		.td-margin-top {margin-top: 50px;}
+		.gradient-background {background: linear-gradient(180deg, rgba(249, 65, 0, 0.35) 0%, rgba(82, 59, 51, 0.2) 99.86%);}
     </style>
 </head>
 
@@ -111,12 +130,76 @@
 								</td>
 							</tr>
 						</table>
-					</tr>
-				</table>
-				<!--[if (gte mso 9)|(IE)]>
-			</td>
-		</tr>
-	</table>
+						<table class="content table-margin-top gradient-background" align="center">
+							<tr>
+								<td class="td-padding-left td-full-width">
+									<h2 class="section-discography-title">DISCOGRAPHY :</h2>
+								</td>
+							</tr>
+							<tr>
+								<td class="td-padding-left td-flex td-full-width">
+									<div>
+										<img class="image-single" src="./cover-discography.png" />
+										<h3>Single “Celebrate”</h3>
+										<p class="text-content subtitle">Mars 2022</p>
+										<div class="button-yellow bandcamp-button">
+											<a class="button-yellow-link" href="#">Bandcamp</a>
+										</div>
+									</div>
+									<div class="discography-text-container">
+										<p class="text-content white discography-text-content">Le dernier single CELEBRATE est un extrait du prochain Extended Play “All we need”. Ce titre élégant et groovy est à découvrir.</p>
+										<div class="discography-infos-list">
+											<div class="discography-infos-list-content-margin-right">
+												<h4 class="yellow">Production manager : </h4>
+												<h5 class="white">Laprorad studio</h5>
+											</div>
+											<div>
+												<h4 class="yellow">Mix & Mastering : </h4>
+												<h5 class="white">Studio Bonison Crédits</h5>
+											</div>
+										</div>
+										<div class="discography-infos-list">
+											<div class="discography-infos-list-content-margin-right">
+												<h4 class="yellow">Enregistrement : </h4>
+												<h5 class="white">Studio Black up Record</h5>
+											</div>
+											<div>
+												<h4 class="yellow">Photo Laprorad <br>studio Graphisme : </h4>
+												<h5 class="white">RM</h5>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="td-padding-left td-flex td-full-width td-margin-top">
+									<div class="container-single">
+										<div>
+											<img class="image-single" src="./image-funky-love.png" />
+											<h3>Funky love </h3>
+											<p class="text-content subtitle">Live session 2019</p>
+											<div class="button-yellow youtube-button">
+												<a class="button-yellow-link" href="#">Écouter</a>
+											</div>
+										</div>
+										<div>
+											<img class="image-single" src="./image-revolution.png" />
+											<h3>R - evolution </h3>
+											<p class="text-content subtitle">Clip 2020 : Laprorad Studio</p>
+											<div class="button-yellow youtube-button">
+												<a class="button-yellow-link" href="#">Écouter</a>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+						</table>
+						</tr>
+					</table>
+					<!--[if (gte mso 9)|(IE)]>
+					</td>
+				</tr>
+			</table>
 	<![endif]-->
 </body>
 </html>
