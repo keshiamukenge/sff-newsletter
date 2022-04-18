@@ -22,22 +22,24 @@
 		.header {padding: 20px 30px 20px 30px; height: 260px; background-image: url('./banner.png'); background-position: center;}
 		.email-object {color: #FCFCFC; font-size: 16px;}
 		.banner {width: 100%; position: relative; z-index: -1;}
-		.quote {color: #B8D8D8; padding-top: 20px;}
+		.quote {color: #B8D8D8; padding: 40px 0px;}
 		.section-sff {background-color: #FFD235;}
 		h2 {color: #070707; font-size: 24px; text-align: left;}
 		.section-sff-image {width: 100%; object-fit: cover;}
 		.text-content {text-align: left; font-family: 'Hind Siliguri', sans-serif;}
-		.button-black {background-color: #070707; width: 83px; height: 26px; border-radius: 30px; color: #FFD235; padding: 8px 3px 0px 3px;}
+		.button-black {background-color: #070707; width: 85px; height: 30px; border-radius: 30px; color: #FFD235; padding: 2px 0px 0px 10px;}
 		a {text-decoration: none; width: 100%; height: 100%; text-align: center; font-family: 'Hind Siliguri', sans-serif;}
 		.button-black-link {color: #FFD235;}
 		.td-padding {padding: 30px;}
 		.td-padding-left {padding-left: 30px;}
-		.section-albim {width: 200px;}
-		.section-album-title {color: #FFD235;}
-		.subtitle {color: #B8D8D8; font-size:10px;}
-		.section-album-text {color: #FCFCFC;}
+		.section-album {width: 100%;; display: flex;}
+		.section-album-title {color: #FFD235; margin: 5px 0px;}
+		.subtitle {color: #B8D8D8; font-size:10px; margin: 0;}
+		.section-album-text {color: #FCFCFC; padding-left: 50px;}
 		.td-full-width {width: 100%;}
+		.table-margin-top {margin-top: 50px;}
 		img {object-fit: cover;}
+		.image-album-cover {width: 300px; object-fit: contain;}
     </style>
 </head>
 
@@ -95,18 +97,16 @@
 								</td>
 							</tr>
 						</table>
-						<table class="content" align="center">
+						<table class="content table-margin-top" align="center">
 							<tr>
-									<td class="td-padding-left td-full-width" width="600">
-										<h2 class="section-album-title">NOUVEL ALBUM "ALL WE NEED"</h2>
-										<p class="text-content subtitle">Sortie prévue en mai 2022</p>
-									</td>
+								<td class="td-padding-left td-full-width" width="600">
+									<h2 class="section-album-title">NOUVEL ALBUM "ALL WE NEED"</h2>
+									<p class="text-content subtitle">Sortie prévue en mai 2022</p>
+								</td>
 							</tr>
 							<tr>
-								<td class="section-album" width="10" align="left">
-									<img src="./album-cover.png"
-								</td>
-								<td class="td-padding-left" width="500">
+								<td class="section-album td-padding-left" width="200" align="left">
+									<img class="image-album-cover" src="./album-cover.png" />
 									<p class="section-album-text text-content">Sous le couvert d'un groove contagieux, de riffs percutants et de mélodies entrainantes, cet Ep réussit la prouesse d'aborder des valeurs fondamentales. Des valeurs telles que l'amitié, l'amour, l'espoir et la confiance en soi qui façonnent notre existence et surtout sa trajectoire.</p>
 								</td>
 							</tr>
